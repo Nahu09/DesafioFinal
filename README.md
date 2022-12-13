@@ -25,10 +25,11 @@ python manage.py migrate
 ```
 
 # Iniciar servidor:
-Para realizarlo se corre el siguiente comando en consola:
+Para iniciar el server, se corre el siguiente comando en consola:
 ```bash
 python manage.py runserver
 ```
+
 ## Requisitos:
 -Python 3.10 (https://www.python.org/downloads/)    
 
