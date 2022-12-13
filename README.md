@@ -1,4 +1,6 @@
 ## Pre-Entrega del proyecto final
+### Creador: Nahuel Matoso
+
 
 # Instalación:
 Se tiene que realizar la instalación de django:
