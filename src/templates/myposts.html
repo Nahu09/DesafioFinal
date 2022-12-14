@@ -1,0 +1,20 @@
+{% extends 'layouts/base.html' %}
+
+{% block container %}
+    
+        
+    {% for post in posts %}
+        <div class="card mb-4">
+            <a href="#!"><img class="card-img-top" src="{{post.image.url}}" alt="..." /></a>
+            <div class="card-body">
+                <div class="small text-muted">{{post.date}}</div>
+                <h2 class="card-title h4">{{post.title}}</h2>
+                <p class="card-text">{{post.description}}</p>
+                <a class="btn btn-primary" href="{% url 'details_view' post.id %}">Details →</a>
+                <a class="btn btn-secondary" href="{% url 'update_view' post.id %}">Edit →</a>
+                <a class="btn btn-danger" href="{% url 'delete_view' post.id %}">Delete →</a>
+            </div>
+        </div>
+    {% endfor %}
+
+{% endblock %}
