@@ -29,6 +29,6 @@ Para realizarlo se corre el siguiente comando en consola:
 python manage.py runserver
 ```
 ## Requisitos:
--Python 3.10 (https://www.python.org/downloads/) 
+-Python 3.10 (https://www.python.org/downloads/)   
 -django 4.1
 
