@@ -1,6 +1,9 @@
 ## Entrega del proyecto final
 ## Creador: Nahuel Matoso
 
+## Video del proyecto:
+https://youtu.be/65MZTvQy_IY
+
 # Instalación:
 Se tiene que realizar la instalación de django:
 ```bash
